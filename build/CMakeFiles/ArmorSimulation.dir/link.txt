@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ArmorSimulation.dir/objects.a
+G:\Tools\MinGW\bin\ar.exe qc CMakeFiles\ArmorSimulation.dir/objects.a @CMakeFiles\ArmorSimulation.dir\objects1.rsp
+G:\Tools\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ArmorSimulation.dir/objects.a -Wl,--no-whole-archive -o ArmorSimulation.exe -Wl,--out-implib,libArmorSimulation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ArmorSimulation.dir\linkLibs.rsp

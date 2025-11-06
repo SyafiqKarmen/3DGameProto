@@ -1,0 +1,8 @@
+[
+{
+  "directory": "G:/ArmorSimulation/build",
+  "command": "G:\\Tools\\MinGW\\bin\\g++.exe  @CMakeFiles/ArmorSimulation.dir/includes_CXX.rsp -g -std=gnu++17 -O3 -march=native -flto -o CMakeFiles\\ArmorSimulation.dir\\src\\Main.cpp.obj -c G:\\ArmorSimulation\\src\\Main.cpp",
+  "file": "G:/ArmorSimulation/src/Main.cpp",
+  "output": "CMakeFiles/ArmorSimulation.dir/src/Main.cpp.obj"
+}
+]
