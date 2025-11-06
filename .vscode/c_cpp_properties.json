@@ -1,0 +1,26 @@
+/*
+ * File c_cpp_properties.
+ * json ini berfungsi mengatur IntelliSense di VS Code agar dapat mengetahui 
+ * header, compiler, dan library eksternal SDL3 atau Vulkan, 
+ * sehingga error seperti “no such file or directory” bisa hilang. 
+ *
+ * Tetapi untuk sekarang tidak bekerja, entah apa yang salah walau sudah reset inteleshit ulang ulang
+ */
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "G:/ArmorSimulation/external/SDL3-3.2.26/include",
+                "G:/ArmorSimulation/external/SDL3-3.2.26/include/SDL3"
+            ],
+            "defines": [],
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
