@@ -4,7 +4,7 @@ project(ArmorSimulation)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Use optimization flags for MinGW
+# optimization flags untuk MinGW
 if(MINGW)
     add_compile_options(-O3 -march=native -flto)
 endif()
@@ -15,7 +15,7 @@ set(SDL3_DIR "${CMAKE_SOURCE_DIR}/external/SDL3-3.2.26")
 include_directories(${SDL3_DIR}/include)
 link_directories(${SDL3_DIR}/lib)
 
-# Your main executable
+# main executable
 add_executable(ArmorSimulation src/Main.cpp)
 
 # Link SDL3
